@@ -36,9 +36,18 @@ Or add it to an existing task: `grunt.registerTask('test', ['clean', 'nyc']);`
 
 ### Options
 
-```js
+Passing options to `nyc`'s executable.
 
+```js
+// cache directory for nyc
+tempDirectory: './.nyc_output',
+// use any reporters that are supported by istanbul
+reporter: 'text',
+// modules to require and run through nyc
+require: []
 ```
+
+Please refer to the [readme](https://github.com/bcoe/nyc#excluding-files) of `nyc` on how to exclude files or on how to configure istanbul.
 
 An example configuration can be found [here](https://github.com/tdeekens/grunt-nyc/blob/master/grunt/tasks/nyc.js) and if you want to check the options you might want to check the [Gruntfile](https://github.com/tdeekens/grunt-nyc/blob/master/tasks/nyc.js) itself.
 
