@@ -5,7 +5,7 @@
 [![devDependency Status](https://david-dm.org/tdeekens/grunt-nyc/dev-status.svg)](https://david-dm.org/tdeekens/grunt-nyc#info=devDependencies) ♦
 [![npm version](https://badge.fury.io/js/grunt-nyc.svg)](http://badge.fury.io/js/grunt-nyc)
 
-> Grunt task generating manifests with fingerprinted assets to be injected and cached via localstorage.
+> Grunt task for the [nyc](https://github.com/bcoe/nyc) code coverage tool.
 
 [![NPM](https://nodei.co/npm/grunt-nyc.png)](https://nodei.co/npm/grunt-nyc/)
 
@@ -26,7 +26,7 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-nyc');
 ```
 
-## The "dactylographsy" task
+## The "nyc" task
 
 ### Overview
 In your project's Gruntfile, the `nyc` task is available to use.
