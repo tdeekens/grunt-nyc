@@ -1,6 +1,11 @@
 /* globals module */
 module.exports = {
-  options: {
-  },
-  test: ['./tasks/**']
+  test: {
+    options: {
+      require: [
+        'babel-core/register',
+        'mocha'
+      ]
+    }
+  }
 };

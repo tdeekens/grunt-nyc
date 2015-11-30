@@ -3,9 +3,7 @@
     "test"
   ],
   "test": [
-    "eslint"
-  ],
-  "ci-test": [
-    "eslint"
+    "eslint",
+    "nyc"
   ]
 }
